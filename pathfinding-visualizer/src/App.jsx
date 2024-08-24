@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 
 const GRID_SIZE = 20;
-const CELL_SIZE = 30;
+const CELL_SIZE = 40;
 
 const AStarPathfinder = () => {
   const [grid, setGrid] = useState(() => 
